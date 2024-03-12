@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    android:layout_width="409dp"
+    android:layout_height="730dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="500dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="100dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editTextText2"
+                android:layout_width="150dp"
+                android:layout_height="48dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="100dp"
+                android:ems="10"
+                android:inputType="text"
+                android:text="Имя" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="10dp"
+                android:text="Форма"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextText3"
+                android:layout_width="150dp"
+                android:layout_height="48dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:inputType="text"
+                android:text="Фамилия" />
+
+            <EditText
+                android:id="@+id/editTextText4"
+                android:layout_width="150dp"
+                android:layout_height="48dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="150dp"
+                android:ems="10"
+                android:inputType="text"
+                android:text="Отчество" />
+
+            <EditText
+                android:id="@+id/editTextText5"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="50dp"
+                android:ems="10"
+                android:inputType="number"
+                android:text="Возраст" />
+
+            <EditText
+                android:id="@+id/editTextText6"
+                android:layout_width="170dp"
+                android:layout_height="48dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="108dp"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:text="Почта" />
+
+            <EditText
+                android:id="@+id/editTextText7"
+                android:layout_width="170dp"
+                android:layout_height="48dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="158dp"
+                android:ems="10"
+                android:inputType="phone"
+                android:text="Телефон" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="170dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="208dp"
+                android:text="Хомяк" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="170dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="208dp"
+                android:text="Кот" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="170dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="248dp"
+                android:text="Крыса" />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="170dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="248dp"
+                android:text="Собака" />
+
+
+
+            <EditText
+                android:id="@+id/editTextText8"
+                android:layout_width="292dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="340dp"
+                android:ems="10"
+                android:inputType="number"
+android:visibility="invisible"
+                android:text="Желательный размер зарплаты" />
+
+            <RadioGroup
+                android:id="@+id/radio1"
+                android:layout_width="393dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="290dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="192dp"
+                    android:layout_height="match_parent"
+                    android:checked="false"
+                    android:text="Работает за зарплату" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="190dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginTop="-40dp"
+                    android:text="Работает бесплатно" />
+            </RadioGroup>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</ScrollView>
